@@ -10,4 +10,4 @@ Features:
 - Does not require root or admin privlages.
 
 
-
+usage :Plogger.py [-h] [-i INTERVAL] [-w] [-l] [-e EMAIL] [-p PASSWORD] -o OUT
